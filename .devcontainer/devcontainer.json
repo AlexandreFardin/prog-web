@@ -1,0 +1,13 @@
+{
+  "name": "Site Simples",
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:20",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ritwickdey.LiveServer"
+      ]
+    }
+  },
+  "forwardPorts": [5500],
+  "postCreateCommand": "npm install -g live-server"
+}
