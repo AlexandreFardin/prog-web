@@ -9,10 +9,8 @@
 </head>
 <body>
 
-  
   <header class="header">
     <div class="container header-content">
-      
       <div class="logo">
         <img src="img/escudo.png" alt="Escudo do Flamengo">
         <span>Flamengo</span>
@@ -20,112 +18,77 @@
 
       <nav class="nav">
         <ul class="nav-list">
-          <li><a href="index.html" target="_blank" rel="noopener noreferrer" class="active">Início</a></li>
-          <li><a href="historia.html" target="_blank" rel="noopener noreferrer">História</a></li>
-          <li><a href="conquistas.html" target="_blank" rel="noopener noreferrer">Conquistas</a></li>
-          <li><a href="elenco.html" target="_blank" rel="noopener noreferrer">Elenco</a></li>
-          <li><a href="idolos.html" target="_blank" rel="noopener noreferrer">Ídolos</a></li>
-          <li><a href="galeria.html" target="_blank" rel="noopener noreferrer">Galeria</a></li>
+          <li><a href="index.html" target="_blank" class="active">Início</a></li>
+          <li><a href="historia.html" target="_blank">História</a></li>
+          <li><a href="conquistas.html" target="_blank">Conquistas</a></li>
+          <li><a href="elenco.html" target="_blank">Elenco</a></li>
+          <li><a href="idolos.html" target="_blank">Ídolos</a></li>
         </ul>
       </nav>
-
     </div>
   </header>
 
   
   <section class="hero">
-    <div class="container hero-content">
-      <h1>Uma vez Flamengo, sempre Flamengo</h1>
-      <p>O maior clube da historia</p>
+    <div class="hero-overlay">
+      <div class="container hero-content">
+        <h1>Flamengo</h1>
+        <p class="hero-text">
+          Paixão que não se explica.  
+          Aqui você encontra história, conquistas e os ídolos do Mengão.
+        </p>
 
-      <div class="hero-buttons">
-        <a href="conquistas.html" target="_blank" rel="noopener noreferrer" class="btn primary">
-          Ver conquistas
-        </a>
-        <a href="historia.html" target="_blank" rel="noopener noreferrer" class="btn secondary">
-          Conhecer história
-        </a>
+        <div class="hero-buttons">
+          <a href="conquistas.html" target="_blank" class="btn primary">Ver conquistas</a>
+          <a href="elenco.html" target="_blank" class="btn secondary">Ver elenco</a>
+        </div>
       </div>
     </div>
   </section>
 
   
-  <section class="destaques">
+  <main class="main">
     <div class="container">
-      <h2>Destaques</h2>
 
-      <div class="cards">
+      
+      <section class="cards">
         <div class="card">
-          <h3>🏆 Títulos</h3>
-          <p>Conheça as principais conquistas do clube.</p>
-          <a href="conquistas.html" target="_blank" rel="noopener noreferrer">Saiba mais</a>
+          <h2>Conquistas</h2>
+          <p>Libertadores, Mundial, Brasileiros e muito mais.</p>
+          <a href="conquistas.html" target="_blank" class="link">Ver mais →</a>
         </div>
 
         <div class="card">
-          <h3>👕 Elenco</h3>
-          <p>Veja os jogadores que defendem o manto.</p>
-          <a href="elenco.html" target="_blank" rel="noopener noreferrer">Ver elenco</a>
+          <h2>Elenco</h2>
+          <p>Conheça os jogadores e seus números.</p>
+          <a href="elenco.html" target="_blank" class="link">Ver mais →</a>
         </div>
 
         <div class="card">
-          <h3>⭐ Ídolos</h3>
-          <p>Os maiores nomes da história rubro-negra.</p>
-          <a href="idolos.html" target="_blank" rel="noopener noreferrer">Conhecer ídolos</a>
+          <h2>História</h2>
+          <p>Uma linha do tempo com os principais momentos.</p>
+          <a href="historia.html" target="_blank" class="link">Ver mais →</a>
         </div>
-      </div>
+
+        <div class="card">
+          <h2>Ídolos</h2>
+          <p>Os grandes nomes que fizeram história.</p>
+          <a href="idolos.html" target="_blank" class="link">Ver mais →</a>
+        </div>
+      </section>
+
     </div>
-  </section>
-
- 
-  <section class="ultimas-conquistas">
-    <div class="container">
-      <h2>Últimas Conquistas</h2>
-
-      <div class="conquistas-lista">
-        <div class="conquista">
-          <span class="ano">2022</span>
-          <p>Copa do Brasil</p>
-        </div>
-        <div class="conquista">
-          <span class="ano">2022</span>
-          <p>Libertadores</p>
-        </div>
-        <div class="conquista">
-          <span class="ano">2020</span>
-          <p>Brasileirão</p>
-        </div>
-      </div>
-
-      <a href="conquistas.html" target="_blank" rel="noopener noreferrer" class="btn primary">
-        Ver todas as conquistas
-      </a>
-    </div>
-  </section>
+  </main>
 
   
-  <section class="cta">
-    <div class="container">
-      <h2>Explore o universo rubro-negro</h2>
-      <p>História, títulos, jogadores e momentos inesquecíveis.</p>
-      <a href="historia.html" target="_blank" rel="noopener noreferrer" class="btn secondary">
-        Começar agora
-      </a>
-    </div>
-  </section>
-
   <footer class="footer">
     <div class="container footer-content">
       <p>&copy; <span id="ano"></span> - Site fã do Flamengo</p>
       <button id="voltarTopo">↑ Voltar ao topo</button>
-      <nav class="footer-nav">
-        <a href="index.html" target="_blank">Início</a>
-        <a href="historia.html" target="_blank">História</a>
-        <a href="conquistas.html" target="_blank">Conquistas</a>
-        <a href="elenco.html" target="_blank">Elenco</a>
-      </nav>
     </div>
   </footer>
-  <script src="js/main.js"></script>
 
+  <script src="js/main.js"></script>
 </body>
+
 </html>
