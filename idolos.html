@@ -1,1 +1,73 @@
 
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ídolos</title>
+  <link rel="shortcut icon" href="https://www.flamengo.com.br/img/favicon.ico">
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+
+  <header class="header">
+    <div class="container header-content">
+      <div class="logo">
+        <img src="img/escudo.png" alt="Escudo do Flamengo">
+        <span>Flamengo</span>
+      </div>
+
+      <nav class="nav">
+        <ul class="nav-list">
+          <li><a href="index.html" target="_blank">Início</a></li>
+          <li><a href="historia.html" target="_blank">História</a></li>
+          <li><a href="conquistas.html" target="_blank">Conquistas</a></li>
+          <li><a href="elenco.html" target="_blank">Elenco</a></li>
+          <li><a href="idolos.html" target="_blank" class="active">Ídolos</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  
+  <section class="idolos pagina">
+    <div class="container">
+      <h1>Ídolos do Flamengo</h1>
+
+      <div class="carrossel">
+        <button id="prevIdolo">◀</button>
+
+        <div class="idolo-card" id="idoloAtual">
+          
+        </div>
+
+        <button id="nextIdolo">▶</button>
+      </div>
+    </div>
+  </section>
+
+  
+  <div class="modal" id="modalIdolo">
+    <div class="modal-content">
+      <button class="fechar-modal" id="fecharModalIdolo">✖</button>
+
+      <img id="modalIdoloFoto" src="" alt="Foto do ídolo">
+      <h2 id="modalIdoloNome"></h2>
+      <p id="modalIdoloDescricao"></p>
+    </div>
+  </div>
+
+  
+  <footer class="footer">
+    <div class="container footer-content">
+      <p>&copy; <span id="ano"></span> - Site fã do Flamengo</p>
+      <button id="voltarTopo">↑ Voltar ao topo</button>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+  <script src="js/idolos.js"></script>
+</body>
+</html>

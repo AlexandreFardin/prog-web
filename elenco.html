@@ -1,1 +1,84 @@
 
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Elenco</title>
+  <link rel="shortcut icon" href="https://www.flamengo.com.br/img/favicon.ico">
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  
+  <header class="header">
+    <div class="container header-content">
+      <div class="logo">
+        <img src="img/escudo.png" alt="Escudo do Flamengo">
+        <span>Flamengo</span>
+      </div>
+
+      <nav class="nav">
+        <ul class="nav-list">
+          <li><a href="index.html" target="_blank">Início</a></li>
+          <li><a href="historia.html" target="_blank">História</a></li>
+          <li><a href="conquistas.html" target="_blank">Conquistas</a></li>
+          <li><a href="elenco.html" target="_blank" class="active">Elenco</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+ 
+  <section class="elenco pagina">
+    <div class="container">
+      <h1>Elenco Atual</h1>
+
+      
+      <input 
+        type="text" 
+        id="buscarJogador" 
+        placeholder="Buscar jogador pelo nome..."
+      >
+
+      
+      <div class="filtros">
+        <button data-posicao="todos" class="active">Todos</button>
+        <button data-posicao="Goleiro">Goleiro</button>
+        <button data-posicao="Zagueiro">Zagueiro</button>
+        <button data-posicao="Lateral">Lateral</button>
+        <button data-posicao="Meio-campo">Meio-campo</button>
+        <button data-posicao="Atacante">Atacante</button>
+      </div>
+
+      
+      <div class="lista-jogadores" id="listaJogadores">
+        
+      </div>
+    </div>
+  </section>
+
+<div class="modal" id="modalJogador">
+  <div class="modal-content">
+    <button class="fechar-modal" id="fecharModal">✖</button>
+
+    <img id="modalFoto" src="" alt="Foto do jogador">
+    <h2 id="modalNome"></h2>
+    <p id="modalNumero"></p>
+    <p id="modalPosicao"></p>
+  </div>
+</div>
+
+  
+  <footer class="footer">
+    <div class="container footer-content">
+      <p>&copy; <span id="ano"></span> - Site fã do Flamengo</p>
+      <button id="voltarTopo">↑ Voltar ao topo</button>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+  <script src="js/elenco.js"></script>
+</body>
+</html>

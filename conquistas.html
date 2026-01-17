@@ -1,1 +1,66 @@
 
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Conquistas</title>
+  <link rel="shortcut icon" href="https://www.flamengo.com.br/img/favicon.ico">
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+ 
+  <header class="header">
+    <div class="container header-content">
+      <div class="logo">
+        <img src="img/escudo.png" alt="Escudo do Flamengo">
+        <span>Flamengo</span>
+      </div>
+
+      <nav class="nav">
+        <ul class="nav-list">
+          <li><a href="index.html" target="_blank">Início</a></li>
+          <li><a href="historia.html" target="_blank">História</a></li>
+          <li><a href="conquistas.html" target="_blank" class="active">Conquistas</a></li>
+          <li><a href="elenco.html" target="_blank">Elenco</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  
+  <section class="conquistas pagina">
+    <div class="container">
+      <h1>Conquistas do Flamengo</h1>
+
+      <div class="filtros">
+        <button data-tipo="todos">Todas</button>
+        <button id="ordenarAno">Ordenar por ano</button>
+        <button data-tipo="mundial">Mundial</button>
+        <button data-tipo="libertadores">Libertadores</button>
+        <button data-tipo="brasileirao">Brasileirão</button>
+        <button data-tipo="copa-do-brasil">Copa do Brasil</button>
+        <button data-tipo="recopa">Recopa</button>
+        <button data-tipo="carioca">Carioca</button>
+      </div>
+
+      <div class="lista-conquistas" id="listaConquistas">
+        
+      </div>
+    </div>
+  </section>
+
+  
+  <footer class="footer">
+    <div class="container footer-content">
+      <p>&copy; <span id="ano"></span> - Site fã do Flamengo</p>
+      <button id="voltarTopo">↑ Voltar ao topo</button>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+  <script src="js/conquistas.js"></script>
+</body>
+</html>
