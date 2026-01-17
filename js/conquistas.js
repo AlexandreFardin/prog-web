@@ -27,6 +27,12 @@ const conquistas = [
     tipo: "libertadores",
     jogo: "Flamengo x Athletico-PR"
   },
+  {
+  titulo: "Libertadores",
+  ano: 2025,
+  tipo: "libertadores",
+  jogo: "Flamengo x Palmeiras"
+},
 
   // 🏆 Brasileirão
   {
@@ -77,6 +83,12 @@ const conquistas = [
     tipo: "brasileirao",
     jogo: "Flamengo x São Paulo"
   },
+  {
+  titulo: "Brasileirão",
+  ano: 2025,
+  tipo: "brasileirao",
+  jogo: "Flamengo x Ceará"
+},
 
   // 🇧🇷 Copa do Brasil
   {
@@ -123,6 +135,13 @@ const conquistas = [
     tipo: "supercopa",
     jogo: "Flamengo x Atlético-MG"
   },
+
+  {
+  titulo: "Supercopa do Brasil",
+  ano: 2025,
+  tipo: "supercopa",
+  jogo: "Flamengo x Botafogo"
+},
 
   // 🌎 Recopa
   {
@@ -184,7 +203,14 @@ const conquistas = [
   { titulo: "Campeonato Carioca", ano: 2019, tipo: "carioca", jogo: "Flamengo x Vasco" },
   { titulo: "Campeonato Carioca", ano: 2020, tipo: "carioca", jogo: "Flamengo x Fluminense" },
   { titulo: "Campeonato Carioca", ano: 2021, tipo: "carioca", jogo: "Flamengo x Fluminense" },
+  {
+  titulo: "Campeonato Carioca",
+  ano: 2025,
+  tipo: "carioca",
+  jogo: "Flamengo x Fluminense"
+},
   { titulo: "Campeonato Carioca", ano: 2024, tipo: "carioca", jogo: "Flamengo x Nova Iguaçu" }
+  
 ];
 
 
